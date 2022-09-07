@@ -1,0 +1,147 @@
+:root {
+    --first-color: rgb(114, 29, 211);
+    --first-color-light: rgb(177, 177, 177);
+    --first-color-lighten: #f8f8fc;
+    --body-font: "Poppins", sans-serif;
+    --normal-font-size: 1rem;
+    --smaller-font-size: 0.813rem;
+  }
+
+body{
+    margin: 20px;
+    padding: 20px;
+    font-family: var(--body-font);
+}
+.card-container{
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    background-color: var(--first-color-lighten);
+    box-shadow: 2px 2px 2px 2px var(--first-color-light);
+    width: 40rem;
+    height: 58.5rem;
+}
+
+.user-post .user .user-name .post .minutes-ago{
+    display: flex;
+}
+
+.user {
+    margin: 10px;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-name{
+    font-size: var(--normal-font-size);
+    color: var(--first-color);
+    cursor: pointer;
+}
+
+.post{
+    font-size: var(--normal-font-size);
+}
+
+.option{
+    float: right;
+    margin-top: -50px;
+    margin-right: 20px;
+}
+
+.minutes-ago{
+    font-size: var(--smaller-font-size);
+    color: var(--first-color-light);
+    margin-top: -20px;
+    margin-left: 75px;
+}
+
+.status{
+    margin: 20px;
+}
+
+.status-user{
+    font-size: var(--normal-font-size);
+}
+
+.like{
+    font-size: var(--smaller-font-size);
+    padding: 5px;
+}
+
+.share{
+    font-size: var(--smaller-font-size);
+    padding: 5px;
+}
+
+.box-comment{
+    background-color: var(--first-color-light);
+}
+
+.sum-comment{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: var(--normal-font-size);
+    font-style: normal;
+}
+
+.user-comment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.img-user-comment{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.name-comment{
+    color: var(--first-color);
+}
+
+.text-comment-user{
+    font-size: var(--smaller-font-size);
+}
+
+.reply-comment{
+    display: flex;   
+}
+
+.reply{
+    text-decoration: none;
+}
+
+.report{
+    padding-left: 100px;
+}
+
+.comment{
+    display: flex;
+}
+
+.img-user{
+    display: flex;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.add-comment{
+    width: 200px;
+    height: 100px;
+}
+
+.post-comment{
+    margin-left: 60px;
+    margin-top: 60px;
+    width: 150px;
+    height: 50px;
+    background-color: var(--first-color);
+    border-radius: 10px;
+    color: var(--first-color-lighten);
+}
